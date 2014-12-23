@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    id="com.inboxhealth.cordova.plugins.defaults"
+    version="0.0.1">
+
+    <name>cordova-defaults</name>
+
+    <!-- <asset src="www/defults.js" target="defaults.js" /> -->
+
+    <dependency id="org.apache.cordova.cardflight" url="https://github.com/InboxHealth/cordova_cardflight" />
+    <dependency id="org.apache.cordova.statusbar" url="https://github.com/apache/cordova-plugin-statusbar" />
+
+    <!-- ios -->
+<!--     <platform name="ios">
+        <plugins-plist key="EchoPlugin"
+                    string="Echo" />
+
+        <header-file src="Echo.h" />
+
+        <source-file src="Echo.m" />
+    </platform>  -->
+</plugin>
