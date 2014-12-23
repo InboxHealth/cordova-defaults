@@ -5,16 +5,9 @@
 
     <name>cordova-defaults</name>
 
-    <!-- <asset src="www/defults.js" target="defaults.js" /> -->
+    <asset src="www/defults.js" target="defaults.js" />
     <dependency id="org.apache.cordova.cardflight" url="https://github.com/InboxHealth/cordova_cardflight" />
     <dependency id="org.apache.cordova.statusbar" url="https://github.com/apache/cordova-plugin-statusbar" />
     <dependency id="org.apache.cordova.splashscreen" url="https://github.com/apache/cordova-plugin-splashscreen.git" />
 
-
-    <gap:config-file platform="ios" parent="StatusBarOverlaysWebView" overwrite="true">
-        <false/>
-    </gap:config-file>
-    <gap:config-file platform="ios" parent="AutoHideSplashScreen" overwrite="true">
-        <false/>
-    </gap:config-file>
 </plugin>
