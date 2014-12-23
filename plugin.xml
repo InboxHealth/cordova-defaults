@@ -6,17 +6,10 @@
     <name>cordova-defaults</name>
 
     <!-- <asset src="www/defults.js" target="defaults.js" /> -->
-
     <dependency id="org.apache.cordova.cardflight" url="https://github.com/InboxHealth/cordova_cardflight" />
     <dependency id="org.apache.cordova.statusbar" url="https://github.com/apache/cordova-plugin-statusbar" />
+    <dependency id="org.apache.cordova.splashscreen" url="https://github.com/apache/cordova-plugin-splashscreen.git" />
 
-    <!-- ios -->
-<!--     <platform name="ios">
-        <plugins-plist key="EchoPlugin"
-                    string="Echo" />
-
-        <header-file src="Echo.h" />
-
-        <source-file src="Echo.m" />
-    </platform>  -->
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="AutoHideSplashScreen" value="false" />.
 </plugin>
